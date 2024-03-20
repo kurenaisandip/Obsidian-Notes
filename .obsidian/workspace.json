@@ -11,8 +11,12 @@
             "id": "3eaf277a6a722116",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Language Server Protocol (LSP)/Learn By Building- LSP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Language Server Protocol (LSP)/Learn By Building- LSP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Language Server Protocol (LSP)/Learn By Building- LSP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C#/MVP Pattern Windows From.md"
+                "file": "Language Server Protocol (LSP)/Learn By Building- LSP.md"
               }
             }
           }
@@ -140,8 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bc95058a5962b326",
+  "active": "3eaf277a6a722116",
   "lastOpenFiles": [
+    "C#/MVP WindowsForm/MVP Pattern Windows From.md",
+    "Language Server Protocol (LSP)/Learn By Building- LSP.md",
+    "Language Server Protocol (LSP)",
+    "GOlang/Golang REST API from scratch with Go Fiber, Docker & Postgres.md",
+    "C#/MVP Pattern Windows From.md",
+    "GOlang",
     "C#/MVP WindowsForm/Pasted image 20240309231153.png",
     "C#/MVP WindowsForm/Pasted image 20240309231004.png",
     "C#/MVP WindowsForm/Pasted image 20240309230352.png",
@@ -152,10 +164,7 @@
     "C#/MVP WindowsForm/Pasted image 20240309224340.png",
     "C#/MVP WindowsForm/Pasted image 20240309224214.png",
     "C#/MVP WindowsForm/Pasted image 20240309224113.png",
-    "C#/MVP WindowsForm/Pasted image 20240309223820.png",
-    "C#/MVP WindowsForm/MVP Pattern Windows From.md",
     "C#/MVP WindowsForm",
-    "C#",
-    "C#/MVP Pattern Windows From.md"
+    "C#"
   ]
 }
