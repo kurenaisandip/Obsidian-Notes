@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fa51fa3a3557dc30",
+        "id": "9db5aca4aabf6d61",
         "type": "tabs",
         "children": [
           {
-            "id": "3eaf277a6a722116",
+            "id": "5b1d162281c52d6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Server Protocol (LSP)/Learn By Building- LSP.md",
+                "file": "C#/DotNetCore-Api/Introduction to ASP.NET Core ASP.NET Core Tutorial for Beginners - Julio Casal.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language Server Protocol (LSP)/Learn By Building- LSP.md",
+                "file": "C#/DotNetCore-Api/Introduction to ASP.NET Core ASP.NET Core Tutorial for Beginners - Julio Casal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language Server Protocol (LSP)/Learn By Building- LSP.md",
+                "file": "C#/DotNetCore-Api/Introduction to ASP.NET Core ASP.NET Core Tutorial for Beginners - Julio Casal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language Server Protocol (LSP)/Learn By Building- LSP.md"
+                "file": "C#/DotNetCore-Api/Introduction to ASP.NET Core ASP.NET Core Tutorial for Beginners - Julio Casal.md"
               }
             }
           }
@@ -146,24 +146,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3eaf277a6a722116",
+  "active": "5b1d162281c52d6e",
   "lastOpenFiles": [
-    "C#/MVP WindowsForm/MVP Pattern Windows From.md",
+    "C#/DotNetCore-Api/Pasted image 20240612225208.png",
+    "C#/DotNetCore-Api/Pasted image 20240612223213.png",
+    "C#/DotNetCore-Api/Pasted image 20240612223119.png",
+    "C#/DotNetCore-Api/Pasted image 20240612222819.png",
+    "C#/DotNetCore-Api/Pasted image 20240612222702.png",
+    "C#/DotNetCore-Api/Pasted image 20240612222641.png",
+    "C#/DotNetCore-Api/Pasted image 20240612222532.png",
+    "C#/DotNetCore-Api/Pasted image 20240612215821.png",
+    "C#/DotNetCore-Api/Pasted image 20240612213920.png",
+    "C#/DotNetCore-Api/Pasted image 20240612212341.png",
+    "The Odin Project/The Foundation course/Motivation & Mindset.md",
+    "The Odin Project/The Foundation course/Pasted image 20240612153019.png",
+    "C#/DotNetCore-Api/Introduction to ASP.NET Core ASP.NET Core Tutorial for Beginners - Julio Casal.md",
+    "The Odin Project/The Foundation course",
+    "C#/DotNetCore-Api",
+    "The Odin Project",
     "Language Server Protocol (LSP)/Learn By Building- LSP.md",
+    "C#/MVP WindowsForm/MVP Pattern Windows From.md",
     "Language Server Protocol (LSP)",
     "GOlang/Golang REST API from scratch with Go Fiber, Docker & Postgres.md",
     "C#/MVP Pattern Windows From.md",
     "GOlang",
-    "C#/MVP WindowsForm/Pasted image 20240309231153.png",
-    "C#/MVP WindowsForm/Pasted image 20240309231004.png",
-    "C#/MVP WindowsForm/Pasted image 20240309230352.png",
-    "C#/MVP WindowsForm/Pasted image 20240309225822.png",
-    "C#/MVP WindowsForm/Pasted image 20240309225724.png",
-    "C#/MVP WindowsForm/Pasted image 20240309225638.png",
-    "C#/MVP WindowsForm/Pasted image 20240309225558.png",
-    "C#/MVP WindowsForm/Pasted image 20240309224340.png",
-    "C#/MVP WindowsForm/Pasted image 20240309224214.png",
-    "C#/MVP WindowsForm/Pasted image 20240309224113.png",
     "C#/MVP WindowsForm",
     "C#"
   ]
