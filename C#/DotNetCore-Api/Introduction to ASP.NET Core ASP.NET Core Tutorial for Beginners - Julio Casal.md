@@ -72,3 +72,54 @@ so, we will create a new folder name Repositories.
 This time my logger is not explicitly constructed by my service() instead mylogger is passed in as a constructor parameter. My logger is injected into the my service constructor. this way my service doesn't need to know how to construct or configure the logger, it just receives it and can start using it right away.  But if my service doesn't construct the logger then who does it? 
 -> The answer is asp .net core provides the iservice provider which is known as a service container. Our application can register my logger and any other dependencies with iservice provider during startup which is typically done in our program.cs file.  then later when a new HTTP request arrives and our web app need an instance of my service, the service container will notice its dependencies and it will go ahead and resolve, construct and inject those dependencies into a new instance of my service via Constructor.
 ![[Pasted image 20240619214932.png]]
+
+![[Pasted image 20240619215319.png]]
+
+#Understandinh-service-lifetime 
+![[Pasted image 20240619215333.png]]
+
+we know that in startup our application will register the dependencies like my logger here. 
+![[Pasted image 20240619215601.png]]
+ and later when an HTTP request arrives Iservice provider will resolve, construct and inject an instance of my logger in to a new instance of our class. "my service in this example"
+ ![[Pasted image 20240619215810.png]]
+
+  what's not clear is what happens when a new request arrives should I-service provider create a brand new mylogger instance for the new request or should it reuse the same instance 
+  ![[Pasted image 20240619220001.png]]
+
+   What is another service that also has dependency on my-logger needs to be created in response to a new request.  save my logger instance or new my-logger instance.
+   -> The answer to this lies in the service life time which we configure when we register my-logger with I-service provider
+   ![[Pasted image 20240619220324.png]]
+
+There are 3 available service lifetimes .
+![[Pasted image 20240619220453.png]]
+
+lets say that my logger is aver light weight and stateless service, so its okay to create a new instance every single time any class needs it. so in this case we should add my-logger to add transient method. 
+![[Pasted image 20240619220720.png]]
+![[Pasted image 20240619220745.png]]
+![[Pasted image 20240619220802.png]]
+
+
+![[Pasted image 20240619220815.png]]
+
+what if my logger is a class that keeps track of some sort of state that needs to be shared across multiple classes that participates in an HTTP request in that case, we will register my logger with add scooped method.
+![[Pasted image 20240619221059.png]]
+
+![[Pasted image 20240619221126.png]]
+
+if another service has the same dependencies on the mylogger then it will recieve the same instance. 
+![[Pasted image 20240619221239.png]]
+
+and this is for a new http request
+![[Pasted image 20240619221321.png]]
+
+![[Pasted image 20240619221411.png]]
+
+and finally lets say my-logger is not cheap to instantiate and it keeps track of the state that should be shared with all clasees that requested during the entire lifetime of our application. then well will register add logger to add singleton method
+![[Pasted image 20240619221551.png]]
+
+![[Pasted image 20240619221625.png]]
+
+for a new http request,
+![[Pasted image 20240619221645.png]]
+
+![[Pasted image 20240619221702.png]]
