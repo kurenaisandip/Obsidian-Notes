@@ -64,3 +64,11 @@ so, we will create a new folder name Repositories.
 
 #Understanding-dependency-injection
 ![[Pasted image 20240612225208.png]]
+
+![[Pasted image 20240619214056.png]]
+
+![[Pasted image 20240619214139.png]]
+
+This time my logger is not explicitly constructed by my service() instead mylogger is passed in as a constructor parameter. My logger is injected into the my service constructor. this way my service doesn't need to know how to construct or configure the logger, it just receives it and can start using it right away.  But if my service doesn't construct the logger then who does it? 
+-> The answer is asp .net core provides the iservice provider which is known as a service container. Our application can register my logger and any other dependencies with iservice provider during startup which is typically done in our program.cs file.  then later when a new HTTP request arrives and our web app need an instance of my service, the service container will notice its dependencies and it will go ahead and resolve, construct and inject those dependencies into a new instance of my service via Constructor.
+![[Pasted image 20240619214932.png]]
