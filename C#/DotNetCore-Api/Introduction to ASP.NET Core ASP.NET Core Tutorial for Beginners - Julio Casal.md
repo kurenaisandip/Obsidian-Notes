@@ -31,7 +31,7 @@ to make validation before data is sent to the server we can use data-annotations
 
 #Introduction-to-nuget
 ![[Pasted image 20240612215821.png]]
-just writting data annotation will not force the code to validate the data. so we are using use a nuget package which already has the logic for validation. {End-Point Filter}
+just writing data annotation will not force the code to validate the data. so we are using use a nuget package which already has the logic for validation. {End-Point Filter}
 
 #Refactoring-the-endpoint
 so we are going to move all the endpoints into a brand new class that is going to be in charge of defining these endpoints and we are going to use extension methods to make this very easy.
@@ -123,3 +123,12 @@ for a new http request,
 ![[Pasted image 20240619221645.png]]
 
 ![[Pasted image 20240619221702.png]]
+
+#Understanding_Data-Transfer-Object
+![[Pasted image 20240623225347.png]]
+
+![[Pasted image 20240623225430.png]]
+
+![[Pasted image 20240623225541.png]]
+
+![[Pasted image 20240623225600.png]]
