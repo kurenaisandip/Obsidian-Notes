@@ -132,3 +132,22 @@ for a new http request,
 ![[Pasted image 20240623225541.png]]
 
 ![[Pasted image 20240623225600.png]]
+
+#Using-DTO 
+for this we will be using record types in c# because they allows us to create immutable classes, primarily designed to hold data and these matches our DTO requirements.
+
+all extentions method should be static
+
+**Module 5: Configuring the API to connect to SQL Server**
+#Configuring_the_API_to_connect_toSQL_Server 
+![[Pasted image 20240704220057.png]]
+
+![[Pasted image 20240704220133.png]]
+
+![[Pasted image 20240704220356.png]]
+
+![[Pasted image 20240704220422.png]]
+
+
+
+#Reading-Configuration-from-appsettingjson
