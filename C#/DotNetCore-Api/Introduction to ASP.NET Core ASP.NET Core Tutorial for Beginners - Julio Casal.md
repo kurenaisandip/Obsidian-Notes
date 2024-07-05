@@ -151,3 +151,43 @@ all extentions method should be static
 
 
 #Reading-Configuration-from-appsettingjson
+At this point we need to figure out a way to connect our dotnet api to sql server and as we may know that we do that is by defining a connection string and the connection string includes all of the parameters needed to connect to a database.
+now we could go ahead and define the connection string directly in the program.cs file 
+![[Pasted image 20240705212600.png]]
+
+but that's usually not a good idea because the connection parameters are usually going to change across different environments. like into test, or production environment, development environment. 
+and the best way to do this is by using .Net configuration system and one of the basic way to do it by using the file appsettings.json and appsettings.development.json
+
+
+#Stroring-secrets-for-local-development
+![[Pasted image 20240705213755.png]]
+
+in this chapter, we will learn how to use .net secret manager to start our application secret during  local development. 
+![[Pasted image 20240705214033.png]]
+
+paste this in the command line 
+![[Pasted image 20240705214315.png]]
+
+secret key will placed in our application 
+![[Pasted image 20240705214510.png]]
+
+
+Module 6- Entity Framework Core 
+
+![[Pasted image 20240705215119.png]]
+
+![[Pasted image 20240705215145.png]]
+
+#Introduction-to-Entiity-Framework-Core
+![[Pasted image 20240705215221.png]]
+
+![[Pasted image 20240705215331.png]]
+
+![[Pasted image 20240705215407.png]]
+
+![[Pasted image 20240705215509.png]]
+
+add this in the terminal 
+```
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer 
+```
