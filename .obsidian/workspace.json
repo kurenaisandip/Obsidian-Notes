@@ -18,8 +18,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "edad13443027b86e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "C#/DotNetCore-Api/Pasted image 20240708222844.png"
+              }
+            }
+          },
+          {
+            "id": "ebf688a556121372",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C#/DotNetCore-Api/Introduction to ASP.NET Core ASP.NET Core Tutorial for Beginners - Julio Casal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,8 +169,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b1d162281c52d6e",
+  "active": "ebf688a556121372",
   "lastOpenFiles": [
+    "Pasted image 20240708224911.png",
+    "C#/DotNetCore-Api/Pasted image 20240708222550.png",
+    "C#/DotNetCore-Api/Pasted image 20240708222739.png",
+    "C#/DotNetCore-Api/Pasted image 20240708222844.png",
+    "C#/DotNetCore-Api/Introduction to ASP.NET Core ASP.NET Core Tutorial for Beginners - Julio Casal.md",
     "C#/DotNetCore-Api/Pasted image 20240705215509.png",
     "C#/DotNetCore-Api/Pasted image 20240705215407.png",
     "C#/DotNetCore-Api/Pasted image 20240705215331.png",
@@ -155,12 +183,7 @@
     "C#/DotNetCore-Api/Pasted image 20240705215145.png",
     "C#/DotNetCore-Api/Pasted image 20240705215119.png",
     "C#/DotNetCore-Api/Pasted image 20240705214510.png",
-    "C#/DotNetCore-Api/Pasted image 20240705214315.png",
-    "C#/DotNetCore-Api/Pasted image 20240705214033.png",
-    "C#/DotNetCore-Api/Pasted image 20240705213755.png",
-    "C#/DotNetCore-Api/Pasted image 20240705212600.png",
     "The Odin Project/The Foundation course/Motivation & Mindset.md",
-    "C#/DotNetCore-Api/Introduction to ASP.NET Core ASP.NET Core Tutorial for Beginners - Julio Casal.md",
     "The Odin Project/The Foundation course",
     "C#/DotNetCore-Api",
     "The Odin Project",

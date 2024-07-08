@@ -191,3 +191,79 @@ add this in the terminal
 ```
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer 
 ```
+
+#Generating-database-Migration
+
+```
+dotnet tool install --global dotnet-ef
+```
+
+```
+dotnet add package Microsoft.EntityFrameworkCore.Design
+```
+
+to run the migration 
+```
+dotnet ef migrations add InitialCreate --output-dir Data\Migrations
+```
+#Configuring-entities-for-database-migrations
+in this lesson we will learn how to use an entity type configuration to clearly tell sql server what precision and scale we want to use here. 
+
+#Applying-database-migration
+
+```
+dotnet ef database update
+```
+#Applying-migration-on-startup
+
+Query Used to delete database
+```
+USE master;
+GO
+SELECT 
+    session_id,
+    host_name,
+    program_name,
+    login_name,
+    status
+FROM sys.dm_exec_sessions
+WHERE database_id = DB_ID('GameStore');
+
+KILL 70;
+
+USE master;
+GO
+SELECT 
+    session_id,
+    host_name,
+    program_name,
+    login_name,
+    status
+FROM sys.dm_exec_sessions
+WHERE database_id = DB_ID('GameStore');
+
+
+DROP DATABASE GameStore;
+```
+
+
+#Implementing-an-Entity-Framework-Repository
+
+the new repository is going to make use of our new game store db context  to be able to both query and make changes in our brand new game store database.
+
+this class is going to be dedicated to work with entity framework objects
+
+#using-the-Entity-Framework-repository 
+
+
+#Understanding-asynchronous-programming-model
+
+![[Pasted image 20240708222550.png]]
+
+![[Pasted image 20240708222739.png]]
+
+![[Pasted image 20240708222844.png]]
+
+
+#Next-Step
+![[Pasted image 20240708224911.png]]
